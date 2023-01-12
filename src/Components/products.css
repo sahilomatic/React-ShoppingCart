@@ -1,0 +1,40 @@
+.products {
+  width: 80%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+  text-align: center;
+
+  background-color: green;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+  gap: 10px;
+  border-width: 1px;
+  border-color: black;
+  vorder-style: "solid";
+  text-align: center;
+  background-color: rgb(245, 146, 18);
+  color: white;
+}
+
+.item > img {
+  height: 100px;
+  object-fit: "cover";
+  margin: 3px;
+}
+
+.item > button {
+  background-color: rgb(140, 140, 252);
+  color: white;
+  margin: 3px;
+}
+
+.item > p {
+  margin: 1px;
+}
